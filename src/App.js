@@ -1,9 +1,22 @@
-import React from 'react'
+import React from 'react';
+
+import { Footer, Blog, Possibility, Features, What, Header} from './containers';
+import {Article, Brand, Navbar, CTA} from './components';
 
 const app = () => {
   return (
-    <div>
-        <h1>Veriscouts</h1>
+    <div className="App">
+      <div ClassName="bg">
+        <Navbar />
+        <Header />
+      </div>
+      <Brand />
+      <What />
+      <Features />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
     </div>
   )
 }
