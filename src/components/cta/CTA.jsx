@@ -3,7 +3,7 @@ import'./cta.css';
 
 const CTA = () => {
   return (
-    <div>Article</div>
+    <div>CTA</div>
   )
 }
 
