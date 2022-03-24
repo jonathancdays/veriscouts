@@ -1,66 +1,61 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
 }
 
 .navbar-links {
-    flex: 1;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .navbar-links_logo {
-    margin-right: 2rem;
-}
-
-#logo {
-    max-height: 200px;
-    max-width: 200px;
+  margin-right: 2rem;
 }
 
 .navbar-links_logo img {
-    height: 16.02px;
-    width: 62.56px;
+  height: 30.02px;
+  width: 62.56px;
 }
 
 .navbar-links_container {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .navbar-sign {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .navbar-links_container p,
 .navbar-sign p,
 .navbar-menu_container p {
-    cursor: pointer;
-    font-family: var(--font-family);
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 25px;
-    margin: 0 1rem;
-    text-transform: capitalize;
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  margin: 0 1rem;
+  text-transform: capitalize;
 }
 
 .navbar-sign button,
 .navbar-menu_container button {
-    background: #02132e;
-    border: 0;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
-    font-family: var(--font-family);
-    font-size: 18px;
-    font-weight: 500px;
-    left: 1153px;
-    line-height: 25px;
-    outline: none;
-    padding: 0.5rem 1rem;
+  background: #02132e;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-size: 18px;
+  font-weight: 500px;
+  left: 1153px;
+  line-height: 25px;
+  outline: none;
+  padding: 0.5rem 1rem;
 }
