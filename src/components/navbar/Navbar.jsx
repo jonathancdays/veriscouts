@@ -60,7 +60,7 @@ const Navbar = () => {
           <div className="navbar-menu_container scale-up-center">
             <div className="navbar-menu_container-links">
               <Menu />
-              <div className="navbar-sign">
+              <div className="navbar-menu_container-links-sign">
                 <p>Log In</p>
                 <button type="button">Register</button>
               </div>
