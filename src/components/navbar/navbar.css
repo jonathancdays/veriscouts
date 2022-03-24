@@ -52,9 +52,15 @@
 .navbar-sign button,
 .navbar-menu_container button {
     background: #02132e;
-    border-radius: 5px;;
-    height: 58px;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-size: 18px;
+    font-weight: 500px;
     left: 1153px;
-    top: 55px;
-    width: 152px;
+    line-height: 25px;
+    outline: none;
+    padding: 0.5rem 1rem;
 }
