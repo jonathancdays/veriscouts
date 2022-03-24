@@ -3,7 +3,7 @@ import'./reviews.css';
 
 const Reviews = () => {
   return (
-    <div>Article</div>
+    <div>Reviews</div>
   )
 }
 
