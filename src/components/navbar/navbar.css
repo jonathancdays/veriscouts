@@ -1,0 +1,29 @@
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+
+.navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar-links_logo {
+    margin-right: 2rem;
+}
+
+#logo {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.navbar-links_logo img {
+    height: 16.02px;
+    width: 62.56px;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Footer, Blog, Possibility, Features, What, Header} from './containers';
+import { Footer, Blog, Reviews, Features, What, Header} from './containers';
 import {Article, Brand, Navbar, CTA} from './components';
 import './App.css';
 
