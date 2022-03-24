@@ -14,7 +14,7 @@ const app = () => {
       <Brand />
       <What />
       <Features />
-      <Possibility />
+      <Reviews />
       <CTA />
       <Blog />
       <Footer />
