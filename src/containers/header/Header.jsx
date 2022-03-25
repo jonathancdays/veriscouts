@@ -7,9 +7,9 @@ const Header = () => {
     <div className="header section__padding" id="home">
       <div className="header-content">
         <h1>Simply The Best Reviews.</h1>
+        <p>Help your community by giving your honest review of those you've worked with.</p>
         <div className="header-content__input">
-          <p>Help your community by giving your honest review of those you've worked with.</p>
-          <input type="email" placeholder="Sign up with your email."/>
+          <textarea type="email" placeholder="Sign up with your email here"/>
           <button type="button">Make a Difference</button>
         </div>
         <div className="header-image">
