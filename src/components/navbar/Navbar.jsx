@@ -18,7 +18,7 @@ const Menu = () => (
       <a href="#features">Post Reviews</a>
     </p>
     <p>
-      <a href="#blog">Posts</a>
+      <a href="#blog">Jobs</a>
     </p>
   </>
 );
