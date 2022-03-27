@@ -13,19 +13,19 @@
 
 .header-content h1 {
   font-family: var(--font-family);
-  font-size: 62px;
+  font-size: 90px;
   font-weight: 800px;
   letter-spacing: -0.04em;
-  line-height: 75px;
+  line-height: 103px;
 }
 
 .header-content p {
   font-family: var(--color-text);
-  font-size: 20px;
+  font-size: 30px;
   font-style: normal;
   font-weight: normal;
   letter-spacing: -0.04em;
-  line-height: 27px;
+  line-height: 37px;
   margin-top: 1.5rem;
 }
 
