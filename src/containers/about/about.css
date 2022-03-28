@@ -38,7 +38,7 @@
 }
 
 .about-heading p {
-  color: var(--color-bg);
+  color: var(--color-subtext);
   cursor: pointer;
   font-family: var(--font-family);
   font-size: 24px;
