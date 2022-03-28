@@ -1,23 +1,21 @@
 .about {
-    background: var(--color-footer);
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
+  background: var(--color-footer);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
 }
 
 .about-feature {
-    display: flex;
+  display: flex;
+  margin-right: 4rem;
+  width: 100%;
 }
 
-.about-feature {
+.about-feature .features-container__feature {
     margin: 0;
 }
-.about-feature img{
-    height: 80px;
-    max-width: auto;
-}
 
-.about-feature .feature-contaner__feature-text {
+.about-feature .features-container__feature-text {
     max-width: 700px;
 }
 
@@ -27,25 +25,25 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 4rem 0 2rem;
-}
+  }
 
 .about-heading h1 {
-    color: var(--color-text);
-    font-family: var(--font-family);
-    font-size: 34px;
-    font-weight: 800;
-    letter-spacing: -0.04em;
-    line-height: 45px;
-    max-width: 510px;
+  color: var(--color-text);
+  font-family: var(--font-family);
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 45px;
+  max-width: 510px;
 }
 
 .about-heading p {
-    color: var(--color-text);
-    cursor: pointer;
-    font-family: var(--font-family);
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 30px;
+  color: var(--color-bg);
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
 }
 
 .about-container {
@@ -55,53 +53,39 @@
     margin-top: 2rem;
 }
 
-/* Customizing feature component as per needs */
-.about-container .about-container__feature {
-    flex: 1;
-    margin: 1rem;
-    min-width: 210px;
-    display: unset;
+@media screen and (max-width: 1000px) {
+  .about-heading {
     flex-direction: column;
-}
+    align-items: flex-start;
+    margin-bottom: 0rem;
+  }
 
-/* Customizing feature component as per needs */
-.about-container .about-container_feature-text {
-    margin-top: 0.5rem;
-}
-
-@media screen and (max-width: 850px) {
-    .about-heading {
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: 0rem;
-    }
-
-    .about-heading p {
-        margin-top: 1rem;
-    }
+  .about-heading p {
+    margin-top: 1rem;
+  }
 }
 
 @media screen and (max-width: 650px) {
-    /* Customizing feature component as per needs */
-    .about-feature .about-container__feature {
-        flex-direction: column;
-    }
+  /* Customizing feature component as per needs */
+  .about-feature .features-container__feature {
+    flex-direction: column;
+  }
 
-    /* Customizing feature component as per needs */
-    .about-feature .about-container_feature-text {
-        margin-top: 0.5rem;
-    }
+  /* Customizing feature component as per needs */
+  .about-feature .features-container_feature-text {
+    margin-top: 0.5rem;
+  }
 
-    .about-heading h1 {
-        font-size: 28px;
-        line-height: 40px;
-    }
+  .about-heading h1 {
+    font-size: 28px;
+    line-height: 40px;
+  }
 }
 
 @media screen and (max-width: 350px) {
-    /* Customizing feature component as per needs */
-    .about-container .about-container__feature {
-        margin: 1rem 0;
-        min-width: 100%;
-    }
+  /* Customizing feature component as per needs */
+  .about-container .features-container__feature {
+    margin: 1rem 0;
+    min-width: 100%;
+  }
 }
