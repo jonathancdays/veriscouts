@@ -43,7 +43,7 @@
   .features-container__feature {
     flex-direction: column;
   }
-  .features-container__feature-title {
+  .features-container__feature-title h1 {
     font-size: 28px;
     line-height: 34px;
   }
@@ -66,9 +66,9 @@
     margin: 1rem;
     width: 100%;
   }
-  .features-container__feature-title {
-    font-size: 16px;
-    line-height: 22px;
+  .features-container__feature-title h1 {
+    font-size: 24px;
+    line-height: 30px;
   }
   .features-container_feature-text {
     font-size: 14px;

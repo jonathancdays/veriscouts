@@ -1,6 +1,7 @@
 import React from "react";
 import Attribute from "../../components/attribute/Attribute";
 import "./testimonials.css";
+import testimonials from "../../assets/testimonials.jpg";
 
 const attributesData = [
   {
@@ -30,6 +31,9 @@ const Testimonials = () => {
           decisions.
         </h1>
         <p>Sign Up Today</p>
+        <div className="testimonials-image">
+          <img src={testimonials} alt="dancer" />
+        </div>
       </div>
       <div className="testimonials-container">
         {attributesData.map((item, index) => (

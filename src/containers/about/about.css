@@ -77,8 +77,13 @@
   }
 
   .about-heading h1 {
-    font-size: 28px;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .about-heading p {
+    font-size: 14px;
+    line-height: 20px;
   }
 }
 

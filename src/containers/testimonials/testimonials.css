@@ -11,8 +11,8 @@
   flex: 1;
   justify-content: flex-start;
   margin-right: 3rem;
-  text-align: left;
   max-width: 600px;
+  text-align: left;
 }
 
 .testimonials-heading h1 {
@@ -34,24 +34,70 @@
   line-height: 30px;
 }
 
+.testimonials-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials-image img {
+  max-height: 100%;
+  max-width: 400px;
+}
+
 .testimonials-container {
-  justify-content: space-between;
   align-items: flex-start;
   flex-direction: row;
-  width: 1000px;
+  justify-content: space-between;
   max-width: 1000px;
+  width: 1000px;
+}
+
+@media screen and (max-width: 1350px) {
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .testimonials-container {
+    flex: 2;
+    flex-direction: column;
+  }
+  .testimonials-heading {
+    flex: 1;
+    flex-direction: column;
+    width: 100%;
+  }
+  .testimonials-title {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .testimonials-text {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .testimonials-image img {
+    max-height: 100%;
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 1000px) {
+  .testimonials {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
   .testimonials-heading {
     flex: 1;
     flex-direction: column;
   }
-  .testimonials-heading h1{
+  .testimonials-title {
     font-size: 28px;
     line-height: 34px;
   }
-  .testimonials-heading p {
+  .testimonials-text {
     font-size: 18px;
     line-height: 24px;
   }
@@ -61,7 +107,7 @@
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
   .testimonials-heading {
     align-items: flex-start;
     display: flex;
@@ -70,9 +116,9 @@
     margin: 1rem;
     width: 100%;  
   }
-  .testimonials-heading h1 {
-    font-size: 22px;
-    line-height: 28px;
+  .testimonials-heading h1{
+    font-size: 24px;
+    line-height: 30px;
   }
   .testimonials-heading p {
     font-size: 14px;
