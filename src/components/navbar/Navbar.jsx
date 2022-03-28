@@ -12,13 +12,13 @@ const Menu = () => (
       <a href="#about">About</a>
     </p>
     <p>
-      <a href="#reviews">Find Reviews</a>
+      <a href="#testimonials">Testimonials</a>
     </p>
     <p>
-      <a href="#features">Post Reviews</a>
+      <a href="#reviews">Reviews</a>
     </p>
     <p>
-      <a href="#blog">Jobs</a>
+      <a href="#blog">Blog</a>
     </p>
   </>
 );

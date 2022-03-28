@@ -4,7 +4,7 @@ import reviews from '../../assets/reviews.jpg'
 
 const Reviews = () => {
   return (
-    <div className="reviews section__padding" id="find_review">
+    <div className="reviews section__padding" id="reviews">
       <div className="reviews-image">
         <img src={reviews} alt="reviews" />
       </div>
