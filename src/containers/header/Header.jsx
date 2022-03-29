@@ -13,13 +13,13 @@ const Header = () => {
           Help your community by giving your honest review of those you've
           worked with.
         </p>
-        <div className="header-content__input">
+        <div className="header-content__input scale-up-center">
           <textarea type="email" placeholder="Sign up with your email here" />
           <button type="button">Make a Difference</button>
         </div>
         </div>
       </div>
-      <div className="header-image slide-in-fwd-top">
+      <div className="header-image scale-up-center">
         <img src={landingpage} alt="landing-page" />
       </div>
       </div>
