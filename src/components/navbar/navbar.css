@@ -47,8 +47,8 @@
 .navbar-sign button,
 .navbar-menu_container button {
   background: #02132e;
-  border: 0;
   border-radius: 5px;
+  border: 0;
   color: #fff;
   cursor: pointer;
   font-family: var(--font-family);
@@ -85,6 +85,7 @@
   right: 0;
   text-align: end;
   top: 40px;
+  z-index: 2;
 }
 
 .navbar-menu_container p {
