@@ -74,9 +74,8 @@
   .about {
     flex-direction: column;
   }
-  .about-image img {
-    max-height: 100%;
-    width: 50%;
+  .about-image {
+    display: none;
   }
 }
 

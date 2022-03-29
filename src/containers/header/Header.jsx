@@ -18,9 +18,9 @@ const Header = () => {
             <button type="button">Make a Difference</button>
           </div>
         </div>
-        <div className="header-image scale-up-center">
-          <img src={landingpage} alt="landing-page" />
-        </div>
+      </div>
+      <div className="header-image scale-up-center">
+        <img src={landingpage} alt="landing-page" />
       </div>
     </div>
   );
