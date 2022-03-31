@@ -18,6 +18,7 @@
   font-weight: 800px;
   letter-spacing: -0.04em;
   line-height: 103px;
+  max-width: 500px
 }
 
 .header-content p {
@@ -37,18 +38,19 @@
   width: 100%;
 }
 
-.header-content__input textarea {
+.header-content__input input {
   background: var(--color-bg);
-  color: var(--color-text);
   border-radius: 1rem;
+  color: var(--color-text);
   flex: 2;
   font-family: var(--font-family);
   font-size: 20px;
   line-height: 27px;
-  min-height: 50px;
+  max-height: 40px;
   min-width: 75%;
   overflow-wrap: break-word;
   padding: 0 1rem;
+  text-align: center;
   width: 100%;
 }
 
