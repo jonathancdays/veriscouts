@@ -7,6 +7,14 @@
   width: 100%;
 }
 
+.attributes-container__attribute-title div {
+  background: var(--color-footer);
+  box-shadow: 0 4px 4px rgba(2, 9, 46);
+  height: 3px;
+  margin-bottom: 0.25rem;
+  width: 38px;
+}
+
 .attributes-container__attribute-title {
   flex: 1;
   width: 300px;
@@ -20,14 +28,6 @@
   font-weight: 800;
   letter-spacing: -0.04em;
   line-height: 44px;
-}
-
-.attributes-container__attribute-title div {
-  background: var(--color-footer);
-  box-shadow: 0 4px 4px rgba(2, 9, 46);
-  height: 3px;
-  margin-bottom: 0.25rem;
-  width: 38px;
 }
 
 .attributes-container_attribute-text {
