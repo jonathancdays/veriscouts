@@ -19,7 +19,7 @@ const Footer = () => {
           <img src={logo} alt="logo" />
         </div>
         <div className="footer-links_div">
-          <h4>Links</h4>
+          <h4>Navigation</h4>
           <p>Account</p>
           <p>Social Media</p>
           <p>Reviews</p>

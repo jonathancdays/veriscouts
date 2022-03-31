@@ -15,7 +15,7 @@ const Header = () => {
           </p>
           <div className="header-content__input scale-up-center">
             <input type="email" placeholder="Sign up with your email here" />
-            <button type="button">Make a Difference</button>
+            <button type="button">Make A Difference</button>
           </div>
         </div>
       </div>
