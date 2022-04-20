@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.31 120.53">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2581fc;
+        stroke: #2581fc;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Checkmark">
+      <polygon class="cls-1" points="126.81 1.21 126.81 37.66 44.64 119.83 0.5 75.69 0.5 39.29 44.6 83.39 126.81 1.21"/>
+    </g>
+  </g>
+</svg>
