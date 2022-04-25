@@ -21,17 +21,15 @@
   <p align="center">
  I have taken inspiration and my experience from my previous employer to design and code a personal project for creative purposes. I do not own any Veriscouts assets.
     <br> 
-    <a href="https://github.com/JelaniDays/professional_review_site"><strong>Explore the docs »</strong></a>
+    <a href="https://jonathan-days-networking-site-project.netlify.app/"><strong>View Live Site »</strong></a>
     <br />
     <br />
     ·
-    <a href="https://www.jonathancdays.com/projects/networking-graphic-design.html">View Graphics</a>
+    <a href="https://www.jonathancdays.com/projects/networking-graphic-design.html">View Print Graphics</a>
     .
     <a href="https://www.figma.com/proto/I1faTmZyVSqyErkWu1jEtF/Veriscouts?node-id=60841%3A14&scaling=min-zoom&page-id=0%3A1">View UX & UI </a>
     ·
     <a href="https://www.jonathancdays.com/projects/networking-branding.html">View Brand Design</a> 
-    ·
-    <a href="https://jonathan-days-networking-site-project.netlify.app/">View Demo</a>
   </p>
 </div>
 
