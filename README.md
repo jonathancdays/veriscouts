@@ -12,7 +12,7 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://jonathan-days-networking-site-project.netlify.app/">
     <img src="src/assets/logo.svg" alt="Logo" width="400" height="400">
   </a>
 
@@ -72,6 +72,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [React.js](https://reactjs.org/)
 - [Node.js](https://nodejs.org/en/)
+- [JSON](https://www.json.org/json-en.html)
+- [Git](https://git-scm.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
