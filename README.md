@@ -66,7 +66,7 @@
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Major frameworks/libraries used to bootstrap this project. 
 
 - [HTML](https://html.spec.whatwg.org/)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
@@ -222,8 +222,6 @@ Project Link: [https://github.com/JelaniDays/professional_review_site](https://g
 <!-- ACKNOWLEDGMENTS -->
 
 ## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 - [MIT Liscence](https://opensource.org/licenses/MIT)
 - [Material Componentas](https://github.com/material-components)
